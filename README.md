@@ -1,8 +1,8 @@
 # iA Writer Template for IBM Plex font
 
-This template is a complete rip-off of Anne Phortuin's [Bitter template](https://github.com/phortuin/writer-bitter-template).
+> A clean template aimed at screen readability and writing about code. Features code highlighting with [PrismJS](http://prismjs.com/) made by [Phortuin](https://phortuin.nl).
 
-> A clean template aimed at screen readability and writing about code. Features code highlighting with [PrismJS](http://prismjs.com/).
+This template is a complete rip-off of Anne Phortuin's [Bitter template](https://github.com/phortuin/writer-bitter-template) made for private use only.
 
 To use it, download and install these free fonts (from Google Fonts):
 
