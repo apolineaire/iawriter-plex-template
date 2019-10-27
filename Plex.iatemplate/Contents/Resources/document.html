@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" media="all" href="style.css">
+	<script src="prism.js" data-manual></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function(){
+			document.body.addEventListener('ia-writer-change', function(event) {
+				var codeBlocks = document.querySelectorAll('pre code');
+				[].forEach.call(codeBlocks, function(codeBlock) {
+					codeBlock.className = codeBlock.className.split(' ').map(function(className) {
+						return 'language-' + className;
+					}).join(' ');
+				});
+				Prism.highlightAll();
+			});
+		});
+	</script>
+</head>
+<body data-document>&nbsp;</body>
+</html>
